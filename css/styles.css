@@ -1,0 +1,88 @@
+:root {
+    --font-title: "Russo One", sans-serif;
+    --font-text: "Quicksand", sans-serif;
+    --color-light: #f4f4f4;
+    --color-blue-300: #32cbd6;
+    --color-blue-900: #120d24;
+    --color-purple-300: #d34cb6;
+    --bg-video: rgba(19, 15, 37, .8);
+}
+
+body {
+    font-family: var(--font-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-title);
+}
+
+.color-blue-300{
+    color: var(--color-blue-300);
+}
+
+.color-purple-300{
+    color: var(--color-purple-300);
+}
+
+.navbar-brand {
+    font-size: 40px;
+    color: var(--color-light);
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+    color: var(--color-light);
+}
+
+.bi-controller {
+    color: var(--color-blue-300);
+    position: relative;
+    top:2px;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+    border-color: var(--color-blue-300);
+    border-width: 2px;
+}
+
+.bi-filter-right {
+    color: var(--color-blue-300);
+    font-size: 25px;
+}
+
+.nav-item a {
+    font-weight: 900;
+    color: var(--color-light);
+}
+
+.nav-item a:hover, .nav-item a:focus {
+    color: var(--color-blue-300);
+}
+
+/************************ fim do menu principal ************************/
+
+/************************ vídeo de fundo ************************/
+.hero-page {
+    min-height: 100vh;
+    position: relative;
+    top: 0;    
+}
+
+.hero-page::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: var(--bg-video);
+}
+
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;    
+}
+
+/************************ fim vídeo de fundo ********************/
