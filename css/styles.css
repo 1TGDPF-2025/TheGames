@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 /************************ fim formatação vídeo de fundo ********************/
 .cta {
     width: 90%;
-    height: 80vh;
+    min-height: 80vh;
     margin: auto;
     display: flex;
     flex-direction: column;
