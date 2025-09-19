@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <title>TheGames - Sua loja virtual de games</title>
     <link rel="shortcut icon" href="./images/controller.svg" type="image/x-icon">
 
@@ -26,6 +26,7 @@
 </head>
 
 <body>
+    <!------------------------------- hero-page ------------------------------->
     <section class="hero-page">
         <nav class="navbar navbar-expand-lg">
             <div class="container my-4 px-5">
@@ -38,8 +39,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" 
-                            href="#">Quero Jogar</a>
+                            <a class="nav-link" href="#jogar">Quero Jogar</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Games</a>
@@ -52,9 +52,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">FAQ</a>
-                        </li>                       
+                        </li>
                     </ul>
-                    
+
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#">Contato</a>
@@ -77,10 +77,11 @@
 
         <!----------------------------- cta ----------------------------->
         <div class="cta text-center text-light">
-            <h3 class="display-4 w-75">Somos a maior 
-               <span class="color-blue-300">loja</span> online de 
-               <span class="color-purple-300">games</span> do Brasil!</h3>
-            
+            <h3 class="display-4 w-75">Somos a maior
+                <span class="color-blue-300">loja</span> online de
+                <span class="color-purple-300">games</span> do Brasil!
+            </h3>
+
             <div class="cta-btn-group">
                 <div class="btn-link">
                     <a href="">+ Informações</a>
@@ -91,12 +92,43 @@
             </div>
         </div>
         <!--------------------------- fim cta -------------------------------->
-
-
-
-
-
     </section>
+    <!---------------------------- fim hero-page ----------------------------->
+
+
+    <!----------------------------- Quero jogar ------------------------------>
+    <section class="container-fluid jogar" id="jogar">
+
+        <!-- grid responsivo do bootstrap -->
+        <div class="row px-5 d-flex align-items-center justify-content-center mx-0">
+
+            <!-- texto e btn do grid -->
+            <div class="text-center py-4 col-lg-7">
+                <h2 class="jogar-titulo my-4">Quero Jogar</h2>
+                <p class="text-light jogar-paragrafo text-center w-75 mx-auto">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores fugiat adipisci consectetur
+                    repellendus magnam at, necessitatibus sit vitae. Dignissimos, adipisci.
+                </p>
+                <div class="cta-btn-group my-5">
+                    <div class="btn-link">
+                        <a href="">Assista o tutorial <i class="bi bi-play-circle ms-1"></i></a>
+                    </div>
+                    <div class="btn-link">
+                        <a href="">Quero jogar agora <i class="bi bi-cart2 ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- fim texto e btn do grid -->
+
+            <!--   imagem do jogador   -->
+            <div class="text-center py-4 col-lg-5">
+                <img src="./images/gamer.jpg" alt="Imagem de um gamer usando um VR" class="img-fluid">
+            </div>
+            <!-- fim imagem do jogador -->
+        </div>
+    </section>
+    <!--------------------------- Fim Quero jogar ---------------------------->
+
 
 
 

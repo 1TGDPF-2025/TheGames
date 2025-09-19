@@ -97,3 +97,70 @@ h1, h2, h3, h4, h5, h6 {
     gap: 50px;
     flex-wrap: wrap;
 }
+
+.cta-btn-group {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-link {
+    border: 2px solid var(--color-blue-300);
+    padding:  10px;
+    min-width: 250px;
+    transform: skew(-20deg);
+    position: relative;
+}
+
+.btn-link::after {
+    content: '';
+    width: 0;
+    height: 100%;
+    background-color: var(--color-blue-300);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: blur(4px);
+    transition: width .5s;
+}
+
+.btn-link:hover::after{
+    width: 100%;
+}
+
+.btn-link a {
+    color: var(--color-light);
+    display: inline-block;
+    transform: skew(20deg);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* ----------------------------- Fim hero page ------------------------------ */
+
+/* ----------------------------- Quero jogar ------------------------------ */
+.jogar {
+    min-height: 100vh;
+    background-color: var(--color-blue-900);
+}
+
+.jogar .row {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.jogar-titulo {
+    font-size: 8vw;
+    color: transparent;
+    -webkit-text-stroke: 2px var(--color-blue-300) ;
+}
+
+.jogar img {
+    border: 15px dashed var(--color-blue-300);
+}
+
+/* ---------------------------- Fim Quero jogar --------------------------- */
