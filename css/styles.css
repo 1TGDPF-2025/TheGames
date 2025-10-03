@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
 /* ----------------------------- Fim hero page ------------------------------ */
 
 /* ----------------------------- Quero jogar ------------------------------ */
-.jogar {
+.jogar, .games {
     min-height: 100vh;
     background-color: var(--color-blue-900);
 }
@@ -153,14 +153,16 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
-.jogar-titulo {
+.jogar-titulo, .games-titulo {
     font-size: 8vw;
     color: transparent;
     -webkit-text-stroke: 2px var(--color-blue-300) ;
 }
 
-.jogar img {
-    border: 15px dashed var(--color-blue-300);
+.jogar img {    
+    border: 2px solid var(--color-blue-300);
+    border-radius: 10px;
+    box-shadow: 1px 1px 40px var(--color-blue-300);
 }
 
 /* ---------------------------- Fim Quero jogar --------------------------- */
