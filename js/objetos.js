@@ -43,7 +43,103 @@ export const games = [
         preco: 219.00
     },
     {
+        imagem: './images/games/game-8.png',
+        nome: 'Groes Gortins',
+        plataformas: 'FPS | Arcade | PC - Mobile',
+        preco: 229.00
+    },
+    {
+        imagem: './images/games/game-1.png',
+        nome: 'Genede Gnoene',
+        plataformas: 'FPS | Arcade | PC - Mobile',
+        preco: 249.00
+    },
+    {
+        imagem: './images/games/game-2.png',
+        nome: '86 Lpax',
+        plataformas: 'FPS | Arcade | PC - Mobile',
+        preco: 279.00
+    },
+    {
+        imagem: './images/games/game-3.png',
+        nome: 'Rider Prior',
+        plataformas: 'FPS | Arcade | PC - Mobile',
+        preco: 219.00
+    },
+    {
+        imagem: './images/games/game-4.png',
+        nome: 'Guntaiirs',
+        plataformas: 'FPS | Arcade | PC - Mobile',
+        preco: 229.00
+    },
+    {
+        imagem: './images/games/game-5.png',
+        nome: 'Beimii',
+        plataformas: 'FPS | Arcade | PC - Mobile',
+        preco: 249.00
+    },
+    {
+        imagem: './images/games/game-6.png',
+        nome: 'Beimii',
+        plataformas: 'FPS | Arcade | PC - Mobile',
+        preco: 249.00
+    },
+    {
         imagem: './images/games/game-7.png',
+        nome: 'Fingcoleu',
+        plataformas: 'FPS | Arcade | PC - Mobile',
+        preco: 219.00
+    },
+    {
+        imagem: './images/games/game-8.png',
+        nome: 'Groes Gortins',
+        plataformas: 'FPS | Arcade | PC - Mobile',
+        preco: 229.00
+    },
+    {
+        imagem: './images/games/game-1.png',
+        nome: 'Genede Gnoene',
+        plataformas: 'FPS | Arcade | PC - Mobile',
+        preco: 249.00
+    },
+    {
+        imagem: './images/games/game-2.png',
+        nome: '86 Lpax',
+        plataformas: 'FPS | Arcade | PC - Mobile',
+        preco: 279.00
+    },
+    {
+        imagem: './images/games/game-3.png',
+        nome: 'Rider Prior',
+        plataformas: 'FPS | Arcade | PC - Mobile',
+        preco: 219.00
+    },
+    {
+        imagem: './images/games/game-4.png',
+        nome: 'Guntaiirs',
+        plataformas: 'FPS | Arcade | PC - Mobile',
+        preco: 229.00
+    },
+    {
+        imagem: './images/games/game-5.png',
+        nome: 'Beimii',
+        plataformas: 'FPS | Arcade | PC - Mobile',
+        preco: 249.00
+    },
+    {
+        imagem: './images/games/game-6.png',
+        nome: 'Beimii',
+        plataformas: 'FPS | Arcade | PC - Mobile',
+        preco: 249.00
+    },
+    {
+        imagem: './images/games/game-7.png',
+        nome: 'Fingcoleu',
+        plataformas: 'FPS | Arcade | PC - Mobile',
+        preco: 219.00
+    },
+    {
+        imagem: './images/games/game-8.png',
         nome: 'Groes Gortins',
         plataformas: 'FPS | Arcade | PC - Mobile',
         preco: 229.00

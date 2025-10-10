@@ -166,3 +166,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ---------------------------- Fim Quero jogar --------------------------- */
+
+/* ----------------------------   Card Games   --------------------------- */
+.card-game{
+    /* padding: 0 20px; */
+    padding: 0;
+    background-color: transparent;
+    border: 1px solid var(--color-blue-300);
+    overflow: hidden;
+}
+
+.card-game img {
+    display: block;
+    position: relative;
+    transition: .5s;
+}
+
+.card-game:hover img{
+    scale: 1.05;
+}
+
+.card-body-game {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.card-game:hover h4 {
+    color: var(--color-blue-300) !important;
+}
+
+
+/* ---------------------------- Fim Card Games --------------------------- */
