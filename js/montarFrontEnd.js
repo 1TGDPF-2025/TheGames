@@ -11,7 +11,6 @@ const gridCards = document.getElementById('grid-cards');
 // vamos usar o forEach
 
 games.forEach(game => {
-
     // o Javascript irá escrever qq coisa dentro do html do id gridCards
     //inclusive escreverá um conjunto de tags para montar os nosso cards
     gridCards.innerHTML += `
@@ -30,5 +29,4 @@ games.forEach(game => {
                 </div>
             </div>
 `
-
 })
